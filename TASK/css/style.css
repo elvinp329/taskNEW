@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header {
+    position: fixed;
+    overflow: auto;
+    padding: 20px 4rem;
+    width: 100%;
+}
+
+.and {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar a {
+    text-transform: uppercase;
+    color: white;
+    margin-left: 20px;
+
+}
+::-webkit-scrollbar{
+    width: 10px;
+    height: 2px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #f4623a;
+}
+
+.logo {
+    float: left;
+}
+
+.logo a {
+    font-size: 20px;
+    font-weight: bold;
+    color: wheat;
+}
+
+.navbar {
+    float: right;
+    margin-top: 5px;
+}
+
+.one a {
+    background-color: #f4623a;
+}
+
+.one {
+    background-image: url(elvin55.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 18rem 0;
+    opacity: 5;
+
+}
+
+.one hr {
+    height: 3px;
+    width: 50px;
+    padding: 2px;
+    border-radius: 5px;
+    margin: auto;
+    background-color: #f4623a;
+    margin-bottom: 1rem;
+}
+
+.one p {
+    font-size: bold;
+    color: white;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.one h3 {
+    color: white;
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+
+}
+
+.one h1 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 4%;
+
+}
+
+.one a {
+
+    color: white;
+    font-size: 14px;
+    padding: 20px 40px;
+    border-radius: 30px 30px;
+    background-color: #f4623a;
+}
+
+.two {
+    background-color: #f4623a;
+    padding: 7rem;
+    text-align: center;
+}
+
+.two h3 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.two p {
+    margin-bottom: 4rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.two a {
+    background-color: white;
+    color: black;
+    padding: 25px 30px;
+    border-radius: 40px;
+}
+
+.two hr {
+
+    height: 3px;
+    border-radius: 2rem;
+    width: 50px;
+    padding: 2px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 1rem;
+
+
+}
+
+.img a {
+    padding: 0 0;
+    background-image: url(1.jpg);
+
+}
+.img{
+    text-align: center;
+    transition: 3s;
+    
+}
+.img a img:hover{
+   
+    border-radius: 15px;
+    filter: blur(4px)
+}
+
+.img a img{
+
+    float: left;
+    display: block;
+    width: 33.3%;
+    
+    
+}
